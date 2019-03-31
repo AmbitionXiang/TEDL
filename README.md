@@ -8,3 +8,6 @@ At the first stage, both parties to the communication modify a public corpus und
 At the second stage, when a word requires transmitting, the sender refers to the codebook and indexes the plaintext to obtain the corresponding ciphertext. And then the ciphertext is sent to the recipient. In turn, the receiver decrypts the ciphertext based on the mapping in the codebook, which is equally an inverse indexing operation. After completing the transmission of a word, both ends adjust the codebook in a certain way. Therefore, when the next word needs to be delivered, it is encrypted based on the new codebook. We illustrates the process as the following figure.
 
 ![](https://github.com/AmbitionXiang/TEDL/blob/master/images/overview.png)
+
+And the process of using the codebook is shown as the following figure.
+![](https://github.com/AmbitionXiang/TEDL/blob/master/images/process2.png)
