@@ -15,11 +15,12 @@ And the process of using the codebook is shown as the following figure.
 
 >A：Construction of Synthetic Corpus
 >>Step 1: Get Wikipedia corpus resources
->>Step 2: Process the wiki's xml file into a normal txt file--process_xml.py
->>Step 3: Convert traditional txt to simplified txt using opencc(Chinese)
->>Step 4: Participle--segmentation_Chinese.py or segmentation_English.py
->>Step 5: Process incremental corpus--incremental_corpus_preprocess.py
->>Step 6: Add incremental corpus to original corpus
+
+    Step 2: Process the wiki's xml file into a normal txt file--process_xml.py
+    Step 3: Convert traditional txt to simplified txt using opencc(Chinese)
+    Step 4: Participle--segmentation_Chinese.py or segmentation_English.py
+    Step 5: Process incremental corpus--incremental_corpus_preprocess.py
+    Step 6: Add incremental corpus to original corpus
 B: Training
     Run word2vec_model.py for word2vec model
     Run fasttext.py for fasttext model
