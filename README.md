@@ -21,13 +21,16 @@ And the process of using the codebook is shown as the following figure.
     Step 4: Participle--segmentation_Chinese.py or segmentation_English.py
     Step 5: Process incremental corpus--incremental_corpus_preprocess.py
     Step 6: Add incremental corpus to original corpus
-B: Training
+>B: Training
+>>
     Run word2vec_model.py for word2vec model
     Run fasttext.py for fasttext model
     As for other models, please refer to the corresponding source codes in github.
-C: Process the word vector table
+>C: Process the word vector table
+>>
     Run table_process.py
-D: Some experiments
+>D: Some experiments
+>>
     recovery.py
     frequency_analysis.py
     correlation_analysis_1.py
