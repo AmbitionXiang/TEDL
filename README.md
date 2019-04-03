@@ -11,3 +11,6 @@ At the second stage, when a word requires transmitting, the sender refers to the
 
 And the process of using the codebook is shown as the following figure.
 ![](https://github.com/AmbitionXiang/TEDL/blob/master/images/process2.png)
+
+
+A：Construction of $C_{\gamma}$
